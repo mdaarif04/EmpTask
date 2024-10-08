@@ -1,0 +1,67 @@
+/* General styles for the employee edit form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for the page */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333; 
+}
+
+form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  max-width: 500px; /* Max width of the form */
+  margin: auto; /* Center the form */
+}
+
+/* Style for each form group */
+div {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Label styling */
+label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Bold labels */
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Font size for inputs */
+}
+
+/* File input styling */
+input[type="file"] {
+  margin-top: 5px; /* Space above the file input */
+}
+
+/* Button styling */
+button {
+  background-color: #50db57; /* Bootstrap primary color */
+  /* color: #fff;  */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for buttons */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Button font size */
+}
+
+
+
+/* Error message styling */
+p {
+  color: red; /* Red color for error messages */
+}

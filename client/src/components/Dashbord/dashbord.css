@@ -1,0 +1,73 @@
+/* dashbord.css */
+
+/* General page styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  background-color: #d9e6f2; 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.nav-menu span {
+  font-weight: bold;
+  color: black;
+}
+
+.ds {
+  background-color: yellow; 
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.h3 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu a, .nav-menu span {
+    margin-bottom: 10px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+  }
+}
